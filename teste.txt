@@ -1,19 +1,4 @@
-program Fatorial;
 
-var
-  num, fatorial, i: integer;
-
-begin
-  write("Digite um numero inteiro: ");
-  readln(num);
-  fatorial := 1;
-  for i := 1 to num do
-    fatorial := fatorial * i;
-  writeln("O fatorial de ", num, " eh: ", fatorial);
-end.
-
-
-------------------------------
 program SomaImpares;
 
 var
